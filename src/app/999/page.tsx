@@ -9,10 +9,11 @@ export default function Page() {
   return (
     <PaymentSection
       invoiceImage="/Invoice-999.jpg"
-      paymentLink="https://www.paypal.com/paypalme/DigiclubPH?locale.x=en_US" // apna stripe link yahan dal
+      paymentLink="https://www.paypal.com/ncp/payment/3P6E6TJWAL9YW" // apna stripe link yahan dal
     />
   );
 }
+
 
 
 
