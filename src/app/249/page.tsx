@@ -1,7 +1,7 @@
 import PaymentSection from "@/app/compoenent/paymentsection";
 
 export const metadata = {
-  title: "Fee 299 - USTPO",
+  title: "Fee 249 - USTPO",
   description: "Payment Method",
 };
 
@@ -9,9 +9,10 @@ export default function Page() {
   return (
     <PaymentSection
       invoiceImage="/Invoice-249.png"
-      paymentLink="https://buy.stripe.com/4gM6oz3U42Svao69sCfYY01"
+      paymentLink="https://www.paypal.com/ncp/payment/MD67M28EFS2ZS"
     />
   );
 }
+
 
 
