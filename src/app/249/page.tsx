@@ -8,9 +8,10 @@ export const metadata = {
 export default function Page() {
   return (
     <PaymentSection
-      invoiceImage="/Invoice-299.jpg"
+      invoiceImage="/Invoice-249.png"
       paymentLink="https://buy.stripe.com/4gM6oz3U42Svao69sCfYY01"
     />
   );
 }
+
 
