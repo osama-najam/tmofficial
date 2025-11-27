@@ -15,11 +15,12 @@ const paymenthidelinknine = process.env.NEXT_API_ROLE_NINETYNINE as string;
 export default function Page() {
   return (
     <PaymentSection
-      invoiceImage="/Invoice-999.png"
+      invoiceImage="/Invoice-999.jpg"
       paymentLink={paymenthidelinknine}
     />
   );
 }
+
 
 
 
