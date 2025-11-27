@@ -9,10 +9,11 @@ export default function Page() {
   return (
     <PaymentSection
       invoiceImage="/Invoice-499.png"
-      paymentLink="https://www.paypal.com/ncp/payment/JKYG7QWE2XPTA"
+      paymentLink=process.env.NEXT_API_ROLE
     />
   );
 }
+
 
 
 
