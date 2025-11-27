@@ -5,7 +5,11 @@ export const metadata = {
   description: "Payment Method",
 };
 
-const paymenthidelkink=process.env.NEXT_API_ROLE
+type Paymenttype = [
+  payment : string,
+]
+
+const paymenthidelkink : Paymenttype =process.env.NEXT_API_ROLE;
 
 export default function Page() {
   return (
@@ -15,6 +19,7 @@ export default function Page() {
     />
   );
 }
+
 
 
 
