@@ -5,7 +5,12 @@ export const metadata = {
   description: "Payment Method",
 };
 
-const paymenthidelink = process.env.NEXT_API_ROLE;
+// build time check
+if (!process.env.NEXT_API_ROLE) {
+  throw new Error("❌ NEXT_API_ROLE is missing in .env.local");
+}
+
+const paymenthidelink = process.env.NEXT_API_ROLE as string;
 
 export default function Page() {
   return (
