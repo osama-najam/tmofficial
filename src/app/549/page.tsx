@@ -16,9 +16,10 @@ export default function Page() {
   return (
     <PaymentSection
       invoiceImage="/Invoice-999.png"
-      paymentLink={paymenthidelinknine}" // apna stripe link yahan dal
+      paymentLink={paymenthidelinknine} // apna stripe link yahan dal
     />
   );
 }
+
 
 
