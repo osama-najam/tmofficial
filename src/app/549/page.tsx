@@ -8,8 +8,9 @@ export const metadata = {
 export default function Page() {
   return (
     <PaymentSection
-      invoiceImage="/Invoice-999.jpg"
+      invoiceImage="/Invoice-999.png"
       paymentLink="https://www.paypal.com/paypalme/DigiclubPH?locale.x=en_US" // apna stripe link yahan dal
     />
   );
 }
+
