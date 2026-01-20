@@ -5,12 +5,20 @@ export const metadata = {
   description: "Payment Method",
 };
 
+// build time check
+if (!process.env.NEXT_API_ROLE_NINETYNINE) {
+  throw new Error("❌ NEXT_API_ROLE is missing in .env.local");
+}
+
+const paymenthidelinknine = process.env.NEXT_API_ROLE_NINETYNINE as string;
+
 export default function Page() {
   return (
     <PaymentSection
       invoiceImage="/Invoice-999.png"
-      paymentLink="https://www.paypal.com/paypalme/DigiclubPH?locale.x=en_US" // apna stripe link yahan dal
+      paymentLink={paymenthidelinknine}" // apna stripe link yahan dal
     />
   );
 }
+
 
