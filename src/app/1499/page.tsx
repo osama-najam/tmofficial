@@ -1,7 +1,7 @@
 import PaymentSection from "@/app/compoenent/paymentsection";
 
 export const metadata = {
-  title: "Fee 549 - USTPO",
+  title: "Fee 1499 - USTPO",
   description: "Payment Method",
 };
 
